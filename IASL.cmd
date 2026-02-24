@@ -3,11 +3,11 @@ setlocal EnableDelayedExpansion
 set iasver=2.5.1
 
 ::============================================================================
-:: Coporton IDM Activation Script (Activator + Registry Cleaner)
+:: IDM Activation Script (Activator + Registry Cleaner)
 ::============================================================================
 
 mode con: cols=120 lines=40
-title Coporton IDM Activation Script (Activator + Registry Cleaner) v%iasver%
+title IDM Activation Script (Activator + Registry Cleaner) v%iasver%
 
 :: Ensure Admin Privileges
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
@@ -255,8 +255,8 @@ SET /P LName=Enter your Last Name:
 echo.
 
 :: ——— FALLBACK TO DEFAULTS IF BLANK ———
-if "%FName%"=="" set "FName=Coporton"
-if "%LName%"=="" set "LName=WorkStation"
+if "%FName%"=="" set "FName=User"
+if "%LName%"=="" set "LName=PC"
 
 :: Re-register user info using the values the user just entered
 reg add "HKCU\SOFTWARE\DownloadManager" /v FName /t REG_SZ /d "%FName%" /f >nul
@@ -383,6 +383,6 @@ exit /b
 ::----------------------
 :quit
 echo.
-echo %GREEN% Thank you for using Coporton IDM Activation Script. Have a great day... %RESET%
+echo %GREEN% Thank you for using IDM Activation Script. Have a great day... %RESET%
 timeout /t 2 >nul
 exit
