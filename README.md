@@ -1,17 +1,17 @@
-# **IDM Activation Script (Activator + Registry Cleaner)**
+# ** Activation Script (Activator + Registry Cleaner)**
 
-IDM Activation Script is a tool designed to activate Internet Download Manager (IDM) for free, allowing users to bypass trial period restrictions and enjoy the full version without purchasing a license.
+ Activation Script is a tool designed to activate Internet Download Manager () for free, allowing users to bypass trial period restrictions and enjoy the full version without purchasing a license.
 
 ### 📝 **Latest Verison**
-- Coporton IDM Activation Script 2.5.1
+- Coporton  Activation Script 2.5.1
 - Support Internet Download Manager 6.42 Build 36
 
 ## 💪 **Features**
 
 - ✅ Activate Internet Download Manager for free.
 - 🛠  Simple and easy-to-use interface.
-- 🌐 Automatic version validation (script and IDM).
-- 📂 Compatible with multiple versions of IDM.
+- 🌐 Automatic version validation (script and ).
+- 📂 Compatible with multiple versions of .
 - 💻 Lightweight and fast.
 
 ## 🛠️ **Installation**
@@ -40,11 +40,11 @@ IDM Activation Script is a tool designed to activate Internet Download Manager (
 
 ### 2. Follow the On-Screen Instructions:
 - Choose an option from the menu:
-  - `1` to Download Latest IDM Version.
+  - `1` to Download Latest  Version.
   - `2` to Activate Internet Download Manager.
   - `3` to Extra FileTypes Extensions.
   - `4` to Do Everything (2 + 3).
-  - `5` Clean Previous IDM Registry Entries.
+  - `5` Clean Previous  Registry Entries.
   - `6` to exit.
 - If you select `4`, the script will copy the necessary files to the appropriate directory and provide feedback on the operation status.
 
@@ -58,8 +58,8 @@ IDM Activation Script is a tool designed to activate Internet Download Manager (
 
 ### These files are not encrypted; you can rename them to view the source file:
 
-- `data.bin` - Contains a activated version of IDMan.exe.
-- `dataHlp.bin` - Contains a help support version of IDMGrHlp.exe.
+- `data.bin` - Contains a activated version of an.exe.
+- `dataHlp.bin` - Contains a help support version of MGrHlp.exe.
 - `Registry.bin` - Registry values to activate Internet Download Manager.
 - `extensions.bin` - Registry entries for extra Internet Download Manager file extensions.
 
